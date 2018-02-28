@@ -1,11 +1,10 @@
 body {
 	background-color: #FFFAF9;
-	font-size: 12px;
-	font-family: Helvetica, sans-serrif;
-
 }
 h1 {
 	color: #250C00;
+	font-size: 12px;
+	font-family: Helvetica, sans-serrif;
 }
 p {
 	color: #250C00;
