@@ -1,21 +1,20 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #FFFAF9;
-}
-h1 {
 	color: #250C00;
+	font-family: helvetica, arial, sans-serif;
 }
-p {
-	color: #250C00;
+section {
+	padding:5em 0;
 }
 ul {
-text-align: center;
-list-style-type: none;
+	list-style-type: none;
 }
-
-img {
-width: 100%;
-
-}
-footer {
-	text-align: center;
+#intro {
+	background:url(../images/cookbook.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: bottom;
+	height: 90vh;
+	text-align: right;
 }
