@@ -1,0 +1,21 @@
+body {
+	background-color: #FFFAF9;
+	font-size: 12px;
+	font-style: Helvetica sans-serrif;
+
+}
+h1 {
+	color: #250C00;
+}
+p {
+	color: #250C00;
+}
+ul {
+text-align: center;
+list-style-type: none;
+}
+
+img {
+width: 100%;
+
+}
