@@ -1,22 +1,8 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-color: #FFFFFF;
+	background-color: #FFFAF9;
 	color: #250C00;
 	font-family: helvetica, arial, sans-serif;
-}
-#top{
-	color: #250C00;
-	text-align: center;
-	background-size: cover;
-	padding: 40px;
-}
-
-nav a{
-	text-transform: none;
-	margin-right: 40px;
-	color: inherit;
-	text-decoration: none;
-	padding: 40px;
 }
 
 section {
