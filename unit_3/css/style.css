@@ -18,3 +18,14 @@ ul {
 	height: 90vh;
 	text-align: right;
 }
+
+#who {
+	background:url(../images/guyinglasses.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: bottom;
+	height: 70vh;
+	text-align: left;
+}
+
+}
