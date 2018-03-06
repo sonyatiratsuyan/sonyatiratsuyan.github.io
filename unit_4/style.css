@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Karma);
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: #FFFAF9;
+	color: #250C00;
+	font-family: Karma, arial, sans-serif;
+}
+
+section {
+	padding:5em 0;
+}
+ul {
+	list-style-type: none;
+}
+#intro {
+	background:url(../images/cookbook.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: bottom;
+	height: 90vh;
+	text-align: right;
+}
+
+#who {
+	background:url(../images/guyinglasses.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: bottom;
+	height: 90vh;
+	text-align: left;
+}
+#about {
+	text-align: center;
+}
