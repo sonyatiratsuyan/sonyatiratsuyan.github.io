@@ -2,9 +2,9 @@
 
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-color: #FFFAF9;
+	background-color: #fbf9f3;
 	color: #250C00;
-	font-family: Karma, arial, sans-serif;
+	font-family: Karma, serif;
 }
 
 section {
@@ -12,6 +12,10 @@ section {
 }
 ul {
 	list-style-type: none;
+}
+label, input, textarea {
+	display:block;
+	width: 100%;
 }
 #intro {
 	background:url(../images/cookbook.jpg);
@@ -22,7 +26,7 @@ ul {
 	text-align: right;
 }
 
-#who {
+#when {
 	background:url(../images/veggies.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
