@@ -47,7 +47,11 @@ label, input, textarea {
     float: right;
     width: 30em;
     margin-right: 8em;
+<<<<<<< HEAD
     background: #FF8A36c7;
+=======
+    background: #FF994Cc7;
+>>>>>>> parent of 6d32cdf... g
     color: #fff;
     padding: 2em;
     border-radius: .5em;
