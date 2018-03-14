@@ -34,6 +34,7 @@ label, input, textarea {
 	background-position: bottom;
 	height: 90vh;
 	text-align: left;
+	line-height: 2em;
 }
 #about {
 	text-align: center;
