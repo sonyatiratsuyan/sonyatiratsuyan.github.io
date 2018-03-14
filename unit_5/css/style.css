@@ -45,13 +45,13 @@ label, input, textarea {
 #when div {
     float: right;
     width: 30em;
-    margin-right: 5em;
+    margin-right: 8em;
     background: #800080c7;
     color: #fff;
     padding: 2em;
     border-radius: .5em;
     box-shadow: 1px 1px 3px rgba(0,0,0,.25);
-    line-height: 1;
+    line-height: 2;
 }
 h1 {
     font-size: 5em;
