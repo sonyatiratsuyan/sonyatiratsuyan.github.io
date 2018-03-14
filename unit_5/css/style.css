@@ -2,7 +2,7 @@
 
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-color: #fbf9f3;
+	background-color: #ffd9b3;
 	color: #250C00;
 	font-family: Karma, serif;
 }
@@ -51,7 +51,6 @@ label, input, textarea {
     padding: 2em;
     border-radius: .5em;
     box-shadow: 1px 1px 3px rgba(0,0,0,.25);
-    line-height: 2;
 }
 h1 {
     font-size: 5em;
