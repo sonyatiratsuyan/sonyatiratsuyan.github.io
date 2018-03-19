@@ -83,6 +83,7 @@ h1 {
 }
 
 .column {
+	float: left;
 	width: 260px;
 	height: 300px;
 	padding: 20px;
@@ -91,12 +92,15 @@ h1 {
 
 #column1 {
 	background-color: #ffffd8;
+	float: left;
 }
 
 #column2 {
 	background-color: #99cc99;
+	float: left;
 }
 
 #column3 {
 	background-color: #cad7e1;
+	float: left;
 }
