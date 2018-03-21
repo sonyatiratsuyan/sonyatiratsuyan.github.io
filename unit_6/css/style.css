@@ -82,25 +82,18 @@ h1 {
 	text-shadow: 1px 1px 3px rgba(0,0,0,.5);
 }
 
-.column {
-	float: left;
-	width: 260px;
-	height: 300px;
-	padding: 20px;
-	margin: 0;
-}
-
-#column1 {
-	background-color: #ffffd8;
+.who {
+	width: 300;
+	margin: 40px;
 	float: left;
 }
 
-#column2 {
-	background-color: #99cc99;
-	float: left;
-}
-
-#column3 {
-	background-color: #cad7e1;
-	float: left;
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear:both; 
+	/*clear:both means clearn the content following the floats so that it sits where it's supposed ot sit on the page*/
 }
