@@ -11,23 +11,30 @@ nav {
 	margin: 10px;
 }
 a {
-	color: black;
+	color: #ff7a1f;
 	text-decoration: none;
-	display: block;
-	float:left;
 	padding:20px;
+}
+nav a{
+	color:inherit;
+	display:inline-block;
+}
+
+.cta{
+	background:#fff;
+	display:inline-block;
+}
+a:hover {
+	background-color:#FF7A1Fc7;
+	color:#fff;
 }
 .clearfix:after{
 	visibility: hidden;
 	display: block;
 	content:" ";
 	clear:both;
-	height
+	height: 0;
 }
-a:hover {
-	background-color:#FF7A1Fc7;
-}
-
 section {
 	padding:5em 0;
 }
@@ -61,7 +68,8 @@ label, input, textarea {
 	text-align: left;
 	background:url(../images/girlscooking.jpg);
 	background-repeat: no-repeat;
-	background-position: bottom;
+	background-position: right;
+	background-size: 50%;
 }
 #when h3 {
     margin-top: 1em;
@@ -85,12 +93,20 @@ h1 {
 	text-shadow: 1px 1px 3px rgba(0,0,0,.5);
 }
 
-.who section {
-	width: 300;
-	margin: 40px;
-	float: left;
+#who{
+	max-width: 1200px;
+	margin: auto;
 }
 
+#who section {
+	width: 33.33%;
+	float: left;
+	padding: 2rem;
+}
+
+#who img {
+	width: 100%;
+}
 .clearfix:after{
 	visibility: hidden;
 	height: 0;
