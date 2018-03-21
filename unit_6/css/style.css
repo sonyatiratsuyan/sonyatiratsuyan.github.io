@@ -2,7 +2,7 @@
 
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-color: #FFF5EB;
+	background-color: #fff;
 	color: #250C00;
 	font-family: Karma, serif;
 }
@@ -20,13 +20,9 @@ nav a{
 	display:inline-block;
 }
 
-.cta1{
-	background:#FF7A1Fc7;
+.cta{
+	background:#fff;
 	display:inline-block;
-}
-.cta2{
-	background:#fff
-	display:inline-block
 }
 a:hover {
 	background-color:#FF7A1Fc7;
