@@ -59,9 +59,7 @@ label, input, textarea {
 }
 #about {
 	text-align: left;
-	background:url(../images/girlscooking.jpg);
-	background-repeat: no-repeat;
-	background-position: bottom;
+
 }
 #when h3 {
     margin-top: 1em;
