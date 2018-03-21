@@ -20,9 +20,13 @@ nav a{
 	display:inline-block;
 }
 
-.cta{
-	background:#fff;
+.cta1{
+	background:#FF7A1Fc7;
 	display:inline-block;
+}
+.cta2{
+	background:#fff
+	display:inline-block
 }
 a:hover {
 	background-color:#FF7A1Fc7;
