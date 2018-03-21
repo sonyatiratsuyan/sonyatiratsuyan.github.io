@@ -90,7 +90,11 @@ h1 {
 	margin: 40px;
 	float: left;
 }
-
+.contactinfo section{
+	width: 90%
+	margin 2%;
+	float: left;
+}
 .clearfix:after{
 	visibility: hidden;
 	height: 0;
