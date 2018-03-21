@@ -10,22 +10,24 @@ nav {
 	font-family: Karma, serif;
 	margin: 10px;
 }
+nav a{
+	color: inherit;
+	display:inline-block;
+}
 a {
-	color: black;
-	text-decoration: none;
-	display: block;
-	float:left;
+	color: #ff7a1f;
 	padding:20px;
+	text-decoration: none;
 }
 .clearfix:after{
 	visibility: hidden;
 	display: block;
 	content:" ";
 	clear:both;
-	height
 }
 a:hover {
 	background-color:#FF7A1Fc7;
+	color:#fff;
 }
 
 section {
@@ -59,7 +61,6 @@ label, input, textarea {
 }
 #about {
 	text-align: left;
-
 }
 #when h3 {
     margin-top: 1em;
@@ -83,10 +84,18 @@ h1 {
 	text-shadow: 1px 1px 3px rgba(0,0,0,.5);
 }
 
-.who section {
-	width: 300;
-	margin: 40px;
+#who{
+	max-width: 1200px;
+	margin:auto;
+}
+}
+#who section{
+	width: 33.33%;
 	float: left;
+	padding: 2rem;
+}
+#who img{
+	width: 100%;
 }
 .contactinfo section{
 	width: 90%
