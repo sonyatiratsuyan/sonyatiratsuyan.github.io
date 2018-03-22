@@ -23,6 +23,7 @@ a {
 	background: #fff;
 	display:inline-block;
 }
+
 a:hover {
 	background-color:#FF7A1Fc7;
 	color:#fff;
@@ -64,7 +65,8 @@ label, input, textarea {
 	line-height: 2em;
 }
 #about {
-	text-align: left;
+	float: left;
+	display:inline-block;
 }
 #when h3 {
     margin-top: 1em;
