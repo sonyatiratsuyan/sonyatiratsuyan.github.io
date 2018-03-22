@@ -91,10 +91,10 @@ h1 {
 }
 
 #who{
-	max-width: 1200px;
+	max-width: 300px;
 	margin:auto;
 }
-
+}
 #who section{
 	width: 33.33%;
 	float: left;
