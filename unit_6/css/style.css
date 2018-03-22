@@ -65,8 +65,7 @@ label, input, textarea {
 	line-height: 2em;
 }
 #about {
-	float: left;
-	display:inline-block;
+	text-align: left;
 }
 #when h3 {
     margin-top: 1em;
