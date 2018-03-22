@@ -2,7 +2,7 @@
 
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-color: #fff;
+	background-color: #fff5eb;
 	color: #250C00;
 	font-family: Karma, serif;
 }
@@ -15,21 +15,25 @@ nav a{
 	display:inline-block;
 }
 a {
-	color: #ff7a1f;
 	padding:20px;
+	color: #ff7a1f;
 	text-decoration: none;
+}
+.cta{
+	background: #fff;
+	display:inline-block;
+}
+a:hover {
+	background-color:#FF7A1Fc7;
+	color:#fff;
 }
 .clearfix:after{
 	visibility: hidden;
 	display: block;
 	content:" ";
 	clear:both;
+	height:0;
 }
-a:hover {
-	background-color:#FF7A1Fc7;
-	color:#fff;
-}
-
 section {
 	padding:5em 0;
 }
@@ -89,18 +93,13 @@ h1 {
 	margin:auto;
 }
 }
-.who section{
+#who section{
 	width: 33.33%;
 	float: left;
 	padding: 2rem;
 }
 #who img{
 	width: 100%;
-}
-.contactinfo section{
-	width: 90%
-	margin 2%;
-	float: left;
 }
 .clearfix:after{
 	visibility: hidden;
