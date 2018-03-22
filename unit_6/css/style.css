@@ -91,7 +91,7 @@ h1 {
 }
 
 #who{
-	max-width: 300px;
+	max-width: 1200px;
 	margin:auto;
 }
 }
@@ -101,7 +101,7 @@ h1 {
 	padding: 2rem;
 }
 #who img{
-	width: 100%;
+	width: 33.33%;
 }
 .clearfix:after{
 	visibility: hidden;
