@@ -128,3 +128,9 @@ h2{
 #contact iframe{
 	width:100%;
 }
+#map{
+	float:left;
+}
+#form{
+	float:left;
+}
