@@ -112,3 +112,16 @@ h1 {
 	clear:both; 
 	/*clear:both means clearn the content following the floats so that it sits where it's supposed ot sit on the page*/
 }
+
+#contact{
+	max-width: 1200px;
+	margin:auto;
+}
+#contact section{
+	width: 50%;
+	float: left;
+	padding: 2.5rem;
+}
+#contact iframe{
+	width:100%;
+}
