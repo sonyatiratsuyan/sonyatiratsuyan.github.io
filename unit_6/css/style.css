@@ -100,7 +100,7 @@ h1 {
 	padding: 2rem;
 }
 #who img{
-	width: 33.33%;
+	width: 100%;
 }
 .clearfix:after{
 	visibility: hidden;
