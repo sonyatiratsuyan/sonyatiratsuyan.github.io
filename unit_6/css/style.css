@@ -126,11 +126,11 @@ h2{
 	padding: 2.5rem;
 }
 #contact iframe{
-	width:48%;
+	width:100%;
 	padding: 2rem;
 }
 #form{
-	width:48%;
+	width:100%;
 	float: right;
 	padding: 2rem;
 }
