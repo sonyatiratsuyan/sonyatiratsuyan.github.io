@@ -6,6 +6,10 @@ body {
 	color: #250C00;
 	font-family: Karma, serif;
 }
+.logo{
+	float: right;
+	margin: 10px;
+}
 nav {
 	font-family: Karma, serif;
 	margin: 10px;
