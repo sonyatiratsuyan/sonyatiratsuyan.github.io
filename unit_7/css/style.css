@@ -14,7 +14,7 @@ body {
 }*/
 nav {
 	font-family: Karma, serif;
-	margin: 5px;
+	margin: 10px;
 }
 nav a{
 	color: inherit;
@@ -74,7 +74,7 @@ label, input, textarea {
 }
 #about {
 	text-align: center;
-	margin: 15px;
+	margin: 30px;
 	/*how do i limit text to a smaller width*/
 	/*how to reduce the space between sections*/
 	/**/
