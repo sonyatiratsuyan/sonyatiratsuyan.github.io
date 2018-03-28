@@ -5,16 +5,17 @@ body {
 	background-color: #fff5eb;
 	color: #250C00;
 	font-family: Karma, serif;
-	/*font-size: 18px;*/
+	font-size: 16px;
 }
-/*#logo{
-	float: right;
-	margin: 10px;
-
-}*/
+#logo{
+	border: 1px solid
+	width: 5em;
+	float: left;
+}
 nav {
 	font-family: Karma, serif;
-	margin: 10px;
+	margin: .5em 0px 0 2em;
+	float: left;
 }
 nav a{
 	color: inherit;
@@ -31,10 +32,12 @@ a {
 	padding: 10px;
 	margin: 8px;
 }
-
 a:hover {
 	background-color:#FF7A1Fc7;
 	color:#fff;
+}
+.cta:hover{
+	background: red;
 }
 /*what color should I make the second cta "peruse our calendar"?*/
 .clearfix:after{
@@ -53,7 +56,21 @@ ul {
 label, input, textarea {
 	display:block;
 	width: 100%;
+	border:none;
 }
+input, textarea{
+	margin-bottom: 1em;
+	padding:1em;
+}
+input:focus, textarea:focus{
+	outline:none;
+	box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .25);
+}
+input type="submit"]{
+	background: blue
+	color: #fff;
+}
+
 #intro {
 	background:url(../images/cookbook.jpg);
 	background-size:cover;
@@ -126,10 +143,10 @@ h2{
 	clear:both; 
 	/*clear:both means clearn the content following the floats so that it sits where it's supposed ot sit on the page*/
 }
-
 #contact{
 	max-width: 1200px;
 	margin:auto;
+	padding:0;
 }
 #contact section{
 	width: 50%;
