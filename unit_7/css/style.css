@@ -9,8 +9,8 @@ body {
 }
 #logo{
 	border: 1px solid
-	width: 2em;
 	float: left;
+	max-width:25%;
 }
 nav {
 	font-family: Karma, serif;
