@@ -10,6 +10,7 @@ body {
 #logo{
 	width:10%;
 	float: left;
+	margin: .5em;
 }
 nav {
 	font-family: Karma, serif;
