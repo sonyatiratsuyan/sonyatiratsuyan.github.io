@@ -11,7 +11,7 @@ body {
 	width:10em;
 	float: left;
 	padding: 1em;
-	margin-left: .77em;
+	margin: 1em;
 }
 /*i tried using a percent for the logo, but it would shrink too much. is using that large of an em not okay?*/
 nav {
