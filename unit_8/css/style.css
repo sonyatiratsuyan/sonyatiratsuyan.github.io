@@ -16,7 +16,7 @@ body {
 /*i tried using a percent for the logo, but it would shrink too much. is using that large of an em not okay?*/
 nav {
 	font-family: Karma, serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	/*added font size*/
 	margin: 1em;
 	float: left;
