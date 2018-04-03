@@ -181,9 +181,9 @@ h2{
 #footer{
 	text-align: center;
 }
-/*@media only screen and (min-width: 760px){
+@media only screen and (max-width: 760px){
 #when div{
 	float:none;
 	width: auto;
-}*/
+}
 /*how woudl i make this stay in the center once it goes to a smaller screen*/
