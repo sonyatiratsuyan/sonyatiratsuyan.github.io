@@ -186,4 +186,8 @@ h2{
 	float:none;
 	width: auto;
 }
+@media only screen and (max-width: 740px){
+nav{
+	float:none;
+}
 /*how woudl i make this stay in the center once it goes to a smaller screen*/
