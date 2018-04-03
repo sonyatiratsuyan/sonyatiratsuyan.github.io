@@ -11,10 +11,11 @@ body {
 	width:10%;
 	float: left;
 	padding: 1em;
+	margin-left: .77em;
 }
 nav {
 	font-family: Karma, serif;
-	margin: .5em 0px 0 2em;
+	margin: 1.7em 0px 0 2em;
 	float: left;
 }
 nav a{
