@@ -8,13 +8,16 @@ body {
 	font-size: 16px;
 }
 #logo{
-	width:10%;
+	width:10em;
 	float: left;
 	padding: 1em;
 	margin-left: .77em;
 }
+/*i tried using a percent for the logo, but it would shrink too much. is using that large of an em not okay?*/
 nav {
 	font-family: Karma, serif;
+	font-size: 2em;
+	/*added font size*/
 	margin: 1.7em 0px 0 2em;
 	float: left;
 }
@@ -30,15 +33,15 @@ a {
 .cta{
 	background: #fff;
 	display:inline-block;
-	padding: 10px;
-	margin: 8px;
+	padding: 1em;
+	margin: .5em;
 }
 a:hover {
 	background-color:#FF7A1Fc7;
 	color:#fff;
 }
 .cta:hover{
-	background: red;
+	background: #e62418;
 }
 /*what color should I make the second cta "peruse our calendar"?*/
 .clearfix:after{
@@ -81,6 +84,9 @@ input type="submit"]{
 	text-align: right;
 	padding: 5em 2.5em;
 }
+#note{
+	font-size: 2m;
+}
 #when {
 	background:url(../images/veggies.jpg);
 	background-size:cover;
@@ -93,9 +99,6 @@ input type="submit"]{
 #about {
 	text-align: center;
 	margin: 30px;
-	/*how do i limit text to a smaller width*/
-	/*how to reduce the space between sections*/
-	/**/
 }
 #when h3 {
     margin-top: 1em;
@@ -114,6 +117,7 @@ input type="submit"]{
 
 h1 {
     font-size: 5em;
+    /*increased font size*/
     line-height: 1;
     color: #fff;
 	text-shadow: 1px 1px 3px rgba(0,0,0,.5);
@@ -174,3 +178,12 @@ h2{
 	border-radius: .5em;
 	box-shadow: 1px 1px 3px rgba (0,0,0,.25);
 }
+#footer{
+	text-align: center;
+}
+@media only screen and (min-width: 760px){
+#when div{
+	float:none;
+	width: auto;
+}
+/*how woudl i make this stay in the center once it goes to a smaller screen*/
