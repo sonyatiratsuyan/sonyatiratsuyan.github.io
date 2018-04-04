@@ -8,16 +8,16 @@ body {
 	font-size: 16px;
 }
 #logo{
-	width:10em;
+	width:8.5em;
 	float: left;
 	padding: 1em;
-	margin: 1em;
+	margin: .5em .5em 1em 1em;
 }
 /*i tried using a percent for the logo, but it would shrink too much. is using that large of an em not okay?*/
 nav {
 	font-family: Karma, serif;
 	font-size: 1.5em;
-	margin: 1em;
+	margin: 1.7em 1.7em 1.7em .1em;
 	float: left;
 }
 nav a{
@@ -197,3 +197,5 @@ nav a{
 	text-align: center;
 	margin: 0;
 }
+/*how do we do this vertically*/
+/*
