@@ -8,10 +8,9 @@ body {
 	font-size: 16px;
 }
 #logo{
-	width:8.5em;
+	width: 6.5em;
 	float: left;
-	padding: 1em;
-	margin: .5em .5em 1em 1em;
+	margin: 1.5em;
 }
 /*i tried using a percent for the logo, but it would shrink too much. is using that large of an em not okay?*/
 nav {
@@ -19,7 +18,6 @@ nav {
 	font-size: 1.2em;
 	margin: 1em;
 	float: left;
-	padding: 1em;
 }
 nav a{
 	color: inherit;
@@ -106,7 +104,7 @@ input type="submit"]{
 
 #when div {
     float: right;
-    width: 30em;
+    max-width: 30em;
     margin-right: 8em;
     background: #FF7A1Fc7;
     color: #fff;
@@ -126,7 +124,7 @@ h2{
 }
 
 #who{
-	max-width: 1200px;
+	max-width: 75em;
 	margin:auto;
 }
 
@@ -186,6 +184,7 @@ body{
 #when div{
 	float:none;
 	width: auto;
+	margin: auto;
 }
 /*how woudl i make this stay in the center once it goes to a smaller screen*/
 
