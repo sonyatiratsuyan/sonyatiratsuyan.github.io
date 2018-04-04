@@ -205,5 +205,10 @@ nav a{
 	width: 100%;
 }
 }
+@media only screen and (max-width: 480px){
+#who{
+	display:none;
+}
+}
 /*how do we do this vertically*/
 /*
