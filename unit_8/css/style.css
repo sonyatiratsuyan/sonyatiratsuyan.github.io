@@ -198,5 +198,12 @@ nav a{
 	text-align: center;
 	margin: 0;
 }
+@media only screen and (max-width: 950px){
+#who section{
+	float: none;
+	padding: 2rem;
+	width: 100%;
+}
+}
 /*how do we do this vertically*/
 /*
