@@ -83,6 +83,8 @@ input type="submit"]{
 #note{
 	font-size: 1.2em;
 	font-weight: 900;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0,0,0,.25);
 }
 #when {
 	background:url(../images/veggies.jpg);
@@ -169,27 +171,26 @@ form{
 #footer{
 	text-align: center;
 }
-@media only screen and (max-width: 760px){
-#when div{
-	float:none;
-	width: auto;
-	margin: auto;
-}
-}
 /*how woudl i make this stay in the center once it goes to a smaller screen*/
 
-@media only screen and (max-width: 740px){
-nav a{
-	display: block;
-	text-align: center;
-	margin: 0;
-}
 @media only screen and (max-width: 950px){
 #who section{
 	float: none;
 	padding: 2rem;
 	width: 100%;
 }
+}
+
+@media only screen and (max-width: 760px){
+#when div{
+	float:none;
+	width: auto;
+	margin: auto;
+}
+nav a{
+	display: block;
+	text-align: center;
+	margin: 0;
 }
 @media only screen and (max-width: 480px){
 #who{
