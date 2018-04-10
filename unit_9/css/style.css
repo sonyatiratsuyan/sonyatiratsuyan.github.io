@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Karma);
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: #fff5eb;
+	color: #250C00;
+	font-family: Karma, serif;
+	font-size: 16px;
+}
+#logo{
+	width: 6.5em;
+	float: left;
+	margin: 1.5em;
+}
+nav {
+	font-family: Karma, serif;
+	font-size: 1.2em;
+	margin: 1em;
+	float: left;
+}
+nav a{
+	color: inherit;
+	display:inline-block;
+}
+a {
+	padding:20px;
+	color: #ff7a1f;
+	text-decoration: none;
+}
+.cta{
+	background: #fff;
+	display:inline-block;
+	padding: 1em;
+	margin: .5em;
+}
+a:hover {
+	background-color:#FF7A1Fc7;
+	color:#fff;
+}
+.cta:hover{
+	background: #e62418;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content:" ";
+	clear:both;
+	height:0;
+}
+section {
+	padding:5em 0;
+}
+ul {
+	list-style-type: none;
+}
+label, input, textarea {
+	display:block;
+	width: 100%;
+	border:none;
+}
+input, textarea{
+	margin-bottom: 1em;
+	padding:1em;
+}
+input:focus, textarea:focus{
+	outline:none;
+	box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .25);
+}
+input type="submit"]{
+	background: blue
+	color: #fff;
+}
+
+#intro {
+	background:url(../images/cookbook.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: bottom;
+	min-height: 85vh;
+	text-align: right;
+	padding: 5em 2.5em;
+}
+#note{
+	font-size: 1.2em;
+	font-weight: 900;
+}
+#when {
+	background:url(../images/veggies.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: bottom;
+	height: 90vh;
+	text-align: left;
+	line-height: 2em;
+}
+#about {
+	text-align: center;
+	margin: 30px;
+}
+#when h3 {
+    margin-top: 1em;
+}
+
+#when div {
+    float: right;
+    max-width: 30em;
+    margin-right: 8em;
+    background: #FF7A1Fc7;
+    color: #fff;
+    padding: 2em;
+    border-radius: .5em;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.25);
+}
+
+h1 {
+    font-size: 8em;
+    line-height: 1;
+    color: #fff;
+	text-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+h2{
+	margin:auto;
+}
+
+#who{
+	max-width: 75em;
+	margin:auto;
+}
+
+#who section{
+	width: 33.33%;
+	float: left;
+	padding: 2rem;
+}
+#who img{
+	width: 100%;
+}
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear:both; 
+}
+#contact{
+	max-width: 1200px;
+	margin:auto;
+	padding:0;
+}
+#contact section{
+	width: 50%;
+	float: left;
+	padding: 2.5rem;
+}
+#contact iframe{
+	width:100%;
+	padding: 2rem;
+}
+form{
+	width: 100%em;
+	margin-top: 2em;
+	background: #FF7A1Fc7;
+	color: #fff;
+	padding: 2em;
+	border-radius: .5em;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.25);
+}
+#footer{
+	text-align: center;
+}
+@media only screen and (max-width: 760px){
+#when div{
+	float:none;
+	width: auto;
+	margin: auto;
+}
+}
+/*how woudl i make this stay in the center once it goes to a smaller screen*/
+
+@media only screen and (max-width: 740px){
+nav a{
+	display: block;
+	text-align: center;
+	margin: 0;
+}
+@media only screen and (max-width: 950px){
+#who section{
+	float: none;
+	padding: 2rem;
+	width: 100%;
+}
+}
+@media only screen and (max-width: 480px){
+#who{
+	display:none;
+}
+}
+/*how do we do this vertically*/
+/*
