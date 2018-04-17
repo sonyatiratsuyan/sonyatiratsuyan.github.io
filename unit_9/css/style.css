@@ -217,6 +217,15 @@ h1{
 	font-size: 1.2em;
 }
 }
+@media only screen and (max-width: 534px){
+	#logo{
+		display: none;
+	}
+	nav{
+		float: none;
+		text-align: center;
+	}
+}
 @media only screen and (max-width: 480px){
 #who{
 	display:none;
@@ -226,6 +235,9 @@ h1{
 }
 h2{
 	text-align: center;
+}
+#contact section{
+	padding: 1em;
 }
 }
 @media only screen and (max-width: 400px){
@@ -237,11 +249,13 @@ nav {
 h1{
 	font-size: 2em;
 }
-
+#contact section{
+	padding: .05em;
+}
 }
 @media only screen and (max-width: 343px){
 	nav{
-		font-size: .9em;
+		font-size: .8em;
 	}
 	#intro{
 		min-height: 65vh;
