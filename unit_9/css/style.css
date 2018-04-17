@@ -59,8 +59,9 @@ label, input, textarea {
 	border:none;
 }
 input, textarea{
-	margin-bottom: 1em;
+	margin-bottom: 1em; 
 	padding:1em;
+
 }
 input:focus, textarea:focus{
 	outline:none;
@@ -170,6 +171,7 @@ form{
 }
 #footer{
 	text-align: center;
+	padding: 2em 0;
 }
 /*how woudl i make this stay in the center once it goes to a smaller screen*/
 
@@ -178,7 +180,7 @@ form{
 
 @media only screen and (max-width:1224px){
 h1{
-	font-size: 6em;
+	font-size: 10vw;
 }
 }
 @media only screen and (max-width: 950px){
@@ -217,9 +219,10 @@ h1{
 	font-size: 1.2em;
 }
 }
-@media only screen and (max-width: 534px){
+@media only screen and (max-width: 540px){
 	#logo{
-		display: none;
+		display: block;
+		margin: 1em auto;
 	}
 	nav{
 		float: none;
