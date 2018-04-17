@@ -160,7 +160,7 @@ h2{
 	padding: 2rem;
 }
 form{
-	width: 100%em;
+	width: 100%;
 	margin-top: 2em;
 	background: #FF7A1Fc7;
 	color: #fff;
@@ -181,12 +181,6 @@ h1{
 	font-size: 6em;
 }
 }
-/* @meida only screen and (max-width:1070px){
-form{
-	width: 100%;
-	float: none;
-	padding: 2.5rem;	
-} */
 @media only screen and (max-width: 950px){
 #who section{
 	float: none;
@@ -195,6 +189,9 @@ form{
 }
 h1{
 	font-size: 5em;
+}
+#contact section{
+	width: 100%;
 }
 }
 @media only screen and (max-width: 801px){
@@ -224,6 +221,12 @@ h1{
 #who{
 	display:none;
 }
+#when{
+	display: none;
+}
+h2{
+	text-align: center;
+}
 }
 @media only screen and (max-width: 400px){
 nav {
@@ -231,4 +234,22 @@ nav {
 	margin: 1em;
 	display: block
 }
+h1{
+	font-size: 2em;
+}
+
+}
+@media only screen and (max-width: 343px){
+	nav{
+		font-size: .9em;
+	}
+	#intro{
+		min-height: 65vh;
+	}
+	h1{
+		font-size: 1.7em;
+	}
+	#note{
+		font-size: 1em;
+	}
 }
